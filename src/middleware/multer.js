@@ -11,7 +11,6 @@ const storage = multer.diskStorage({
         cb(null, `${timestamp}${fileName}`)
     }
 })
-console.log(storage)
 
 const upload = multer(
     {
